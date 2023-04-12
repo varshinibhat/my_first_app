@@ -5,6 +5,7 @@ Below are the instructions for this first assignment/mini-projet. The commands t
 
 ## Execution
 This is an individual assignment, questions at the end of the assignment must be done individually. You can help each other in case you have issues in understanding but you must execute all actions indivudally.
+You can reach out for help to your respective manager or to me directly.
 
 ## Prerequisites to install
 - git bash
@@ -20,17 +21,19 @@ This is an individual assignment, questions at the end of the assignment must be
 2. Go to the newly created project, from your personal account.
 3. Clone it to your local laptop
 
-## First push
-1. Make a local change to the readme, for example by adding your name
-2. Push the new change to your personal repository
-    - Use an explicit commit message (for example "Add author name to README.md" and not "first commit")
-
 ## Run your application
 1. Open the project from IntelliJ
 3. Check that you see a message "Hello World!" in the intellij console
 
+## First push
+1. Add your first name to the "Hello World!" message, for example : "Hello World! This is Bastien".
+2. Push the new change to your personal repository
+    - Use an explicit commit message (for example "Customize Hello World message" and not "my commit")
+
 ## Make your project a maven and make a jar
-1. Follow https://www.jetbrains.com/help/idea/convert-a-regular-project-into-a-maven-project.html#develop_with_maven
+1. Follow https://www.jetbrains.com/help/idea/convert-a-regular-project-into-a-maven-project.html
+    - If you encounter some issues during the procedure, try restarting IntelliJ IDEA.
+2. Generate the jar (as mentioned in the procedure)
 2. Execute your generated jar from the terminal (cmd or other), check that "Hello World" is displayed
 
  ## Build a docker running your code
@@ -39,13 +42,17 @@ This is an individual assignment, questions at the end of the assignment must be
  3. Check that "Hello World" is displayed
 
 ## Add functionnalities to your code
-1. to be completed
+1. Include this lib through maven : https://mvnrepository.com/artifact/org.alcibiade/asciiart-core
+2. Add code to convert a picture of your choice into ASCII character. For example I used the swiss flag and I got this output :
+![](sample_Ascii_art_from_picture.png)
+3. Make a jar and run the jar to see if you have the same output. Check that link below to generate a jar which includes the maven dependencies :
+ https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-runnable-jar-with-dependencies-using-maven
 
- ## Export docker image
- 1. Export your docker image in a file
- 2. Send it to another person of your choice, i.e. through Discord
- 3. Ask that person to run it, and compare the behavior of your container locally and the one running on your partner. The behavior should be the same.
-
+ ## Export the docker image with the new code
+ 1. Re-build a docker image with the latest jar you have created
+ 2. Export your docker image in a file
+ 3. Send it to another person of your choice, i.e. through Discord
+ 4. Ask that person to run it, and compare the behavior of your container locally and the one running on your partner. The behavior should be the same.
 
  ## Deliverable
  At the end of the Readme.md, add this following element :
@@ -56,3 +63,5 @@ This is an individual assignment, questions at the end of the assignment must be
         - In term of Operating System, pre-installed app, etc...
     - What is the difference between a virtual machine and a docker container ?
 - Refer to https://www.markdownguide.org/basic-syntax/ to learn about markdown syntax (ie. how to include pictures)
+### Deadline
+Send me your git repo link on discord through direct message by **Friday, 21th April, 5pm**.
