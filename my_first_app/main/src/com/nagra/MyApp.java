@@ -1,4 +1,4 @@
-package com.nagra.myapp;
+package com.nagra;
 
 public class MyApp {
     public static void main(String[] args) {
