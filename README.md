@@ -23,6 +23,7 @@ You can reach out for help to your respective manager or to me directly.
 
 ## Run your application
 1. Open the project from IntelliJ
+2. Go to File -> Project Structure -> Project Settings - Project -> SDK : Select Oracle OpenJDK version 20
 3. Check that you see a message "Hello World!" in the intellij console
 
 ## First push
