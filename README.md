@@ -45,7 +45,7 @@ You can reach out for help to your respective manager or to me directly.
 ## Add functionnalities to your code
 1. Include this lib through maven : https://mvnrepository.com/artifact/org.alcibiade/asciiart-core
 2. Add code to convert a picture of your choice into ASCII character. For example I used the swiss flag and I got this output :
-![](doc\sample_Ascii_art_from_picture.png)
+![](doc/sample_ascii_art_from_picture.png)
 3. Make a jar and run the jar to see if you have the same output. Check that link below to generate a jar which includes the maven dependencies :
  https://stackoverflow.com/questions/574594/how-can-i-create-an-executable-runnable-jar-with-dependencies-using-maven
 
