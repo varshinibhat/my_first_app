@@ -22,8 +22,12 @@ You can reach out for help to your respective manager or to me directly.
 3. Clone it to your local laptop
 
 ## Run your application
-1. Open the project from IntelliJ
+1. Open the project from IntelliJ by selecting the nested my_first_app folder as shown on this screenshot :
+
+![](doc/project_location.png)
+
 2. Go to File -> Project Structure -> Project Settings - Project -> SDK : Select Oracle OpenJDK version 20
+3. Run MyApp
 3. Check that you see a message "Hello World!" in the intellij console
 
 ## First push
