@@ -13,7 +13,7 @@ You can reach out for help to your respective manager or to me directly.
 - Docker (on Windows or on WSL if you have it)
 - Java JDK 20 + Configure Windows "PATH"
 
-## Optionally
+### Optional
 - WSL (Ubuntu integrated in Windows and can be used as a terminal)
 
 ## Setup
@@ -31,6 +31,17 @@ You can reach out for help to your respective manager or to me directly.
 3. Check that you see a message "Hello World!" in the intellij console
 
 ## First push
+### Setup github authentication 
+You have two options to authenticate when pushing a change to your repository :
+- SSH Authentication
+    1. Generate a key pair : https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    2. Add the public key (.pub file) to your Github ssh keys: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+    3. Test your setup : https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+    4. When pushing change, your ssh key will be automatically use to authenticate to your repo
+- Token authentication
+    1. Generate a token from https://github.com/settings/tokens
+    2. Use is as a password when pushing change to your repo
+### Push
 1. Add your first name to the "Hello World!" message, for example : "Hello World! This is Bastien".
 2. Push the new change to your personal repository
     - Use an explicit commit message (for example "Customize Hello World message" and not "my commit")
@@ -60,7 +71,7 @@ You can reach out for help to your respective manager or to me directly.
  4. Ask that person to run it, and compare the behavior of your container locally and the one running on your partner. The behavior should be the same.
 
  ## Deliverable
- At the end of the Readme.md, add this following element :
+ At the end of the README.md, add this following element :
  - A screenshot of your docker image and docker running (from the command line)
  - A screenshot of your app output
  - Answer to those questions :
