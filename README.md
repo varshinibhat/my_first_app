@@ -5,7 +5,7 @@ Below are the instructions for this first assignment/mini-projet. The commands t
 
 ## Execution
 This is an individual assignment, questions at the end of the assignment must be done individually. You can help each other in case you have issues in understanding but you must execute all actions indivudally.
-You can reach out for help to your respective manager or to me directly.
+You can reach out for help to Rajaneesh or me, or your respective manager.
 
 ## Prerequisites to install
 - git bash
@@ -13,7 +13,7 @@ You can reach out for help to your respective manager or to me directly.
 - Docker (on Windows or on WSL if you have it)
 - Java JDK 20 + Configure Windows "PATH"
 
-### Optional
+### Optional, highly recommended:
 - WSL (Ubuntu integrated in Windows and can be used as a terminal)
 
 ## Setup
@@ -79,5 +79,5 @@ You have two options to authenticate when pushing a change to your repository :
         - In term of Operating System, pre-installed app, etc...
     - What is the difference between a virtual machine and a docker container ?
 - Refer to https://www.markdownguide.org/basic-syntax/ to learn about markdown syntax (ie. how to include pictures)
-### Deadline
+## Deadline
 Send me your git repo link on discord through direct message by **Friday, 21th April, 5pm**.
